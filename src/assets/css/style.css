@@ -716,6 +716,142 @@ textarea.input {
 }
 
 
+/* Social button */
+.omb_hrOr {
+  background-color: #cdcdcd;
+  height: 2px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.omb_spanOr {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: -0.8em;
+  margin-left: -1.5em;
+  background-color: #fff;
+  width: 3em;
+  text-align: center;
+}
+.login-box {
+  padding: 20px;
+  max-width: 480px;
+  text-align: center;
+  position: relative;
+}
+.login-box:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-box h2 {
+  margin: 20px 0 20px;
+  padding: 0;
+  text-transform: uppercase;
+  color: #4688f1;
+}
+.social-button {
+  background-position: 25px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 3px;
+  margin: 10px auto;
+  outline: #fff none 0;
+  padding-left: 20%;
+  transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#facebook-connect {
+  background: #fff
+    url(https://raw.githubusercontent.com/eswarasai/social-login/master/img/facebook.svg?sanitize=true)
+    no-repeat scroll 5px 0/30px 50px padding-box border-box;
+  border: 1px solid #3c5a9a;
+}
+#facebook-connect:hover {
+  border-color: #3c5a9a;
+  background: #3c5a9a
+    url(https://raw.githubusercontent.com/eswarasai/social-login/master/img/facebook-white.svg?sanitize=true)
+    no-repeat scroll 5px 0/30px 50px padding-box border-box;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
+}
+#facebook-connect span {
+  box-sizing: border-box;
+  color: #3c5a9a;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0 none #fff;
+  outline: #fff none 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#facebook-connect:hover span {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#google-connect {
+  background: #fff
+    url(https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus.png)
+    no-repeat scroll 5px 0/50px 50px padding-box border-box;
+  border: 1px solid #dc4a3d;
+}
+#google-connect:hover {
+  border-color: #dc4a3d;
+  background: #dc4a3d
+    url(https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus-white.png)
+    no-repeat scroll 5px 0/50px 50px padding-box border-box;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
+}
+#google-connect span {
+  box-sizing: border-box;
+  color: #dc4a3d;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0 none #dc4a3d;
+  outline: #fff none 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#google-connect:hover span {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* end */
 
 /*----------------------------*\
 	responsive nav
