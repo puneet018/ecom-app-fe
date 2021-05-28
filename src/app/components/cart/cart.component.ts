@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CartComponent implements OnInit {
 
-  constructor() { }
+ // cartData: CartModelServer;
+  cartTotal: Number | undefined;
+  subTotal: Number | undefined;
 
-  ngOnInit(): void {
+  constructor() {
+  }
+
+  ngOnInit() {
+     //this.cartService.cartDataObs$.subscribe((data: any) => this.cartData = data);
+     //this.cartService.cartTotal$.subscribe((total: Number | undefined) => this.cartTotal = total);
+  }
+
+  ChangeQuantity(id: Number, increaseQuantity: Boolean) {
+    //this.cartService.UpdateCartData(id, increaseQuantity);
   }
 
 }
