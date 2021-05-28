@@ -25,6 +25,7 @@ import { HomeComponent } from './components/home/home.component';
 import { WishlistIconComponent } from './components/wishlist-icon/wishlist-icon.component';
 import { SellerLoginRegisterComponent } from './components/seller-login-register/seller-login-register.component';
 import { BuyerLoginRegisterComponent } from './components/buyer-login-register/buyer-login-register.component';
+import { CartComponent } from './components/cart/cart.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { BuyerLoginRegisterComponent } from './components/buyer-login-register/b
     WishlistIconComponent,
     SellerLoginRegisterComponent,
     BuyerLoginRegisterComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule,
